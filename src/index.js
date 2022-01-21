@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import temps from './components/utils/Temperature';
 
 ReactDOM.render(
-    <App temperature={temps}/>,
+    <App temperatures={temps}/>,
   document.getElementById('root')
 );
 
